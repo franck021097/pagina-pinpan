@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8"/>
+    <title>PinPan</title>
+    <link rel="icon" href="imagenes\logo.png">
+    <link rel="stylesheet"  type ="text/css" href="hojas_estilo_pinpan.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+ </head>
+
+ <body>
+    <div id="port">
+        <img class="portadaImg"  src="imagenes\logo.png" title="portada" width="700" ><br>
+    </div>
+<!--botones-->
+     <div id="menu">
+         <ul>
+             <li id="item"i><a>inicio</a></li>
+             <li id="item" id="formulario"><a  class="item" href="#formulario">busca tu equipo</a></li>
+             <li id="item"><a>acesorios</a></li>
+             <li id="item"><a>interesante</a></li>
+             <li id="item"><a href="juegos\index.html">juegos</a>
+               <ul id="submenu">
+                 <li><a href="juegos\vueltas\index.html">memorama</a></li>
+                 <li><a href="juegos\bola_roja\index.html">bolita roja</a></li>
+               </ul>
+             </li>
+             <li id="item" accesskey=""id="item" id="comentarios"><a href="#comentarios">comentarios</a></li>
+             <li id="item" id="historia"><a href="historia\index.html">conocenos</a></li>
+             <li id="item" id="#contactar"><a href="#contactar">contactar</a></li>
+             <li id="item" id="pagos"><a href="pagos\index.html">pagos</a></li>
+
+         </ul>
+     </div>
+
+<!--bienvenida-->
+     <div id="h1">
+    <p>Bienvenido a pinpan</p><br>
+         </div>
+<!--contacar-->
+    <div class="zonas">
+        <p id="contactar" class="subtitulos"><strong>Esperamos que nuestro servicio cubra tus espectativas</strong></p>
+<!--cuadro te texto de contacto-->
+
+<!--lnks de contacto-->
+        <a href="https://www.facebook.com/Pinpan-353026055439244/">
+        <img class="imgFb" id="facebook" src="imagenes\Face.png" alt="pinpan" width="70" height="70"/></a>
+        <a href="https://www.facebook.com/Pinpan-353026055439244/">
+        <img id="whatsapp" src="imagenes\whatsApp.png" alt="pinpan" width="110" height="110"/></a>&nbsp;
+    </div>
+<!-- <cajas de texto para busqueda> -->
+    <div class="zonas">
+        <p id="formulario" class="subtitulos"><strong>Datos del servicio</strong></p>
+        <form>
+        <p class="datos">Fecha de entrega<br>
+
+        <br>Hora de entrega<br>
+        <input type="text" id="texto_lineas"/>
+        <br>Ingresa el ID<br>
+        </p>
+    <!--boton-->
+            <button class = "botones" type="submit" value="¡Buscar equipo!"  width="100%">¡Buscar equipo!</button>
+            <button class = "botones" type="reset" width="100%">Borrar todo</button>
+            <button class = "botones" type="submit" value="enviar correo" width="100%">Enviar</button>
+        </form>
+    </div>
+<!--comentarios y suguerencias-->
+    <div class="zonas">
+        <h2 id="comentarios"><p class="subtitulos"><strong>Envianos tus comentarios</strong></p></h2>
+    <!--caja de texto para comentarios-->
+
+    <!--boton-->
+        <form>
+        <input class = "botones" type="submit" value="¡Informar!" id="comentarios" />
+        </form>
+    </div>
+<!--retorno a inicio-->
+    <div>
+        <a id="huella" href="#port"><p><img src="imagenes\huella.png"  width="100" height="100"/><br>
+        <strong>INICIO</strong></p></a>
+    </div>
+ </body>
+</html>

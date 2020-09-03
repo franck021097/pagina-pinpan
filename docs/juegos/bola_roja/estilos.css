@@ -1,0 +1,39 @@
+body{
+				background-color: grey;
+				color: green;
+				}
+div{
+				height: 200px;
+				width: 200px;
+				background-color: grey;
+				border-radius: 50%;
+				}
+				
+input{
+				background-color: grey;
+				position: absolute;
+				align: center;
+				border-color: #58ff46;
+				border-radius: 10%;
+				color: #db0014;
+				font-size: 30px;
+				left: 50px;
+				}
+#right{
+				left:120px;
+				}
+
+#down{
+				left:75px;
+				}
+
+.tapas{
+				left:90px;
+				}
+img{
+                position: absolute;
+                right: -10px;
+				height: 200px;
+				width: 200px;
+				top: 100px
+}

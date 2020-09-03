@@ -1,0 +1,40 @@
+body{
+    background-image: url(imagenes/Fm.jpg);
+    background-size: 100%;
+    text-decoration-color: chartreuse;
+    
+
+}
+
+p{
+    font-size: 30px;
+    color: dodgerblue;
+    text-align: justify;
+}
+
+.subtitulos{
+    color: darkred;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#certificados{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 50px;
+}
+
+
+
+.facebook{
+    border-radius: 100%;
+}
+
+.fin{
+    text-align: center;
+}
+
+
+
+
+

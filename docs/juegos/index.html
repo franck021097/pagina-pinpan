@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{
+                background-color: dodgerblue;
+            }
+
+            a{
+                text-decoration-line: none;
+                color: forestgreen;
+                font-family: monospace;
+                font-size: 50px;
+                float: left;
+                margin-left: 50px;;
+            }
+
+            @keyframes example {
+              0%   {background-color:red; left:0px; top:0px;}
+              25%  {background-color:yellow; left:50%; top:0px;}
+              50%  {background-color:blue; left:50%; top:90%;}
+              75%  {background-color:green; left:0px; top:90%;}
+              100% {background-color:red; left:0px; top:0px;}
+            }
+            
+
+            #vuelta a{
+              background-color: red;
+              position: absolute;
+              color: black;
+              transform: rotateZ(10deg);
+              animation-name: example;
+              animation-duration: 8s;
+              animation-iteration-count: infinite;
+            }
+
+        </style>
+    </head>
+    <body>
+        <p id="vuelta"><a href="vueltas/index.html">vueltas</a></p>
+        <p id="bola"><a href="bola_roja/index.html">bolita roja</a></p>
+    </body>
+</html>

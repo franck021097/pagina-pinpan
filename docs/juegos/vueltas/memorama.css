@@ -1,0 +1,57 @@
+body{
+  background-color: #000095
+}
+
+div{
+  background-color: #4BFFCC;
+  height: 100px;
+  width: 100px;
+  transition: background 0.5s;
+  margin: auto;
+  border-radius: 100%;
+  float: right;
+}
+
+#reinicio{
+display: none;
+}
+
+
+p{
+  background-color: transparent;
+  height: 100px;
+  width: 100px;
+  margin: auto;
+  border-radius: 100%;
+  transition: background 5s;
+}
+
+.uno:active{
+  background-color: black;
+  transition: all 0.2s;
+}
+
+.dos:active{
+background-color: red;
+transition: all 0.2s;
+}
+
+.tres:active{
+background-color: purple;
+transition: all 0.2s;
+}
+
+.cuatro:active{
+background-color: green;
+transition: all 0.2s;
+}
+
+.cinco:active{
+background-color: #00FF00;
+transition: all 0.2s;
+}
+
+.seis:active{
+background-color: transparent;
+transition: all 0.2s;
+}

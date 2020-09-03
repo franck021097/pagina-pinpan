@@ -1,0 +1,97 @@
+@import "menu.css";
+
+body{
+    background-color: #0B0B3B;
+    font-family: cursive;
+}
+
+#port{
+    background-color: dimgray;
+    padding: 20px 20px;
+    perspective: 1000px;
+}
+
+#port img:hover{
+  animation-name: portadaimg;
+  animation-duration: 5s;
+  animation-iteration-count: 1;
+
+}
+
+.portadaImg{
+    height: auto;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    position: relative;
+    opacity: 0.9;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1), 0 6px 20px 0 rgba(0, 0, 0, 1);
+}
+
+@keyframes portadaimg {
+  from{
+    transform: rotateY(0deg);
+  }
+  to{
+    transform: rotateY(360deg);
+  }
+}
+
+p{
+  font-size: 25px;
+  font-family: sans-serif;
+  position: relative;
+  text-align: center;
+}
+
+
+.zonas{
+  height: auto;
+  width: auto;
+  background-color: #E6E6E6;
+  padding: 10px 10px;
+  margin: 10px;
+  border-radius: 100px 10px 100px 10px;
+  opacity: 1;
+}
+
+.zonas:hover{
+  transform: rotateY(0deg);
+  transition: transform 2s;
+  opacity: 0.9;
+}
+
+.botones{
+  background-color: #0431B4;
+  border: none;
+  padding: 11px 50px;
+  position: relative;
+  left: 45%;
+  font-size: 20px;
+  font-family: fantasy;
+  align-items: center;
+  display: flex;
+  margin: 10px;
+}
+
+#huella{
+    position: absolute;
+    left: 50%;
+    text-decoration: none;
+    color: black;
+}
+
+#huella p{
+  width: 100px;
+  margin: inherit;
+  font-size: 30px;
+  position: absolute;
+
+}
+
+#huella:hover{
+
+  color: silver;
+}
+.

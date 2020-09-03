@@ -1,0 +1,43 @@
+#menu{
+  padding: 10px 10px;
+  margin: auto;
+  width: auto;
+  background: transparent;
+  overflow: auto;
+}
+
+#menu ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#menu #item{
+  float: left;
+}
+
+#menu #item a{
+  background: black;
+  color: white;
+  text-decoration: none;
+  padding: 10px 10px;
+  display: block;
+  font-family: arial;
+  font-size: 20px;
+  margin: 5px;
+}
+
+#menu #submenu{
+  display: none;
+  position: absolute;
+}
+
+#menu #item:hover #submenu {
+  display: block;
+}
+
+/*#menu #item a:hover{
+  background: white;
+  color: black;
+}
+*/
