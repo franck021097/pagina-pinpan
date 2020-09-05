@@ -11,6 +11,20 @@
  </head>
 
  <body>
+   <div id="c">
+    <div id="i">
+    <img id="load" width="100%" height="100%" src="carga.png">
+  </div>
+</div>
+
+  <script>
+
+  window.onload = setInterval(function(){
+    var contentedor = document.getElementById('c');
+    contentedor.style.visibility = 'hidden';
+    contentedor.style.opacity = '0';} ,2000);
+
+</script>
     <div id="port">
         <img class="portadaImg"  src="imagenes\logo.png" title="portada" width="700" ><br>
     </div>

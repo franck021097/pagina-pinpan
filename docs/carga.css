@@ -1,0 +1,62 @@
+*, *:before, *:after{
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+#c{
+  background-color: blue;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  z-index: 9999;
+  transition: all 1.5s;
+}
+
+#i{
+  perspective: 150px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  position: absolute;
+  /*border: 1px solid white;*/
+  width: 99px;
+  height: 99px;
+  border-radius: 10%;
+  background-color: transparent;
+  transition: all 1s;
+}
+
+#load{
+  background-color: white;
+  border-radius: 10%;
+  position: absolute;
+  /*top: 50%;
+  left: 50%;*/
+  animation-name: carga;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  transition: all 1s;
+}
+
+@keyframes carga {
+0%{
+  transform: rotateY(0deg);
+  opacity: 1;
+}
+49%{
+  transform: rotateY(360deg);
+  opacity: 0.2;
+}
+50%{
+  transform: rotateX(360deg);
+  opacity: 0.2;
+}
+99%{
+  transform: rotateX(0deg);
+  opacity: 1;
+}
+}
